@@ -87,7 +87,7 @@ function geneateAnswer() {
     let answer = answers[randomIndex];
     document.getElementById("answer").innerHTML = `
       <p>我聽見了，我想告訴你的是：</p>
-      <p><strong>${answer}</strong></p>
+      <p class="quote"><strong>${answer}</strong></p>
     `;
   } else {
     alert("請輸入您的問題，否則答案之書無法幫助您噢！");

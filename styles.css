@@ -41,3 +41,7 @@ h1 {
     right: 15%;
     text-align: center;
 }
+
+.quote {
+    font-style: italic;
+}
