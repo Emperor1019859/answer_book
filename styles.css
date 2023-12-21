@@ -2,10 +2,12 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     overflow: hidden;
-  }
+}
 
 h1 {
-    color: white
+    margin-top: 5%;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.338);
 }
 
 .img {
@@ -20,27 +22,22 @@ h1 {
 .question {
     width: 200px;
     height: 100px;
-    overflow-y: auto;
 }
 
 .left_panel {
-position: absolute;
-top: 50%;
-left: 30%;
-transform: translate(-50%, -50%);
-background-color: rgba(255, 255, 255, 0.5);
-padding: 20px;
-border-radius: 10px;
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(195, 177, 17, 0.624);
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .right_panel {
-position: absolute;
-top: 50%;
-right: 30%;
-}
-
-.greetings {
-position: relative;
-bottom: 30%;
-left: 10%;
+    font-size: 28px;
+    position: absolute;
+    top: 70%;
+    right: 15%;
+    text-align: center;
 }
