@@ -90,6 +90,6 @@ function geneateAnswer() {
       <p class="quote"><strong>${answer}</strong></p>
     `;
   } else {
-    alert("請輸入您的問題，否則答案之書無法幫助您噢！");
+    alert("請輸入您的問題，否則真理之書無法幫助您噢！");
   }
 }
